@@ -1,4 +1,4 @@
-package com.example.config.eureka;
+package com.example.eureka.registry;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ConfigEurekaApplicationTests {
+public class EurekaRegistryApplicationTests {
 
 	@Test
 	public void contextLoads() {

@@ -1,4 +1,4 @@
-package com.example.config.eureka;
+package com.example.eureka.registry;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
 @EnableEurekaServer
-public class ConfigEurekaApplication {
+public class EurekaRegistryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ConfigEurekaApplication.class, args);
+		SpringApplication.run(EurekaRegistryApplication.class, args);
 	}
 
 }
