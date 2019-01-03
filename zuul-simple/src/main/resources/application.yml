@@ -1,0 +1,10 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: spring-cloud-zuul-simple
+zuul:
+  routes:
+    zdq0394:
+      path: /zdq0394/**
+      url: https://github.com/zdq0394/
