@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: spring-cloud-config-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8000/eureka/

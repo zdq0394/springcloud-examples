@@ -1,0 +1,10 @@
+server:
+  port: 8003
+spring:
+  application:
+    name: spring-cloud-config-client
+  cloud:
+    config:
+      name: orchid
+      profile: dev
+      label: master
