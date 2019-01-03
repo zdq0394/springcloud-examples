@@ -1,0 +1,12 @@
+server:
+  port: 9102
+
+spring:
+  application:
+    name: spring-cloud-consul-producer
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      discovery:
+        service-name: consul-producer
