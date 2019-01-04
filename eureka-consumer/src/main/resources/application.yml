@@ -6,7 +6,7 @@ spring:
     sampler:
       percentage: 1.0
   zipkin:
-    base-url: http://127.0.0.1:8900
+    base-url: http://zipkin:8900
 
 server:
   port: 9100
@@ -16,7 +16,9 @@ feign:
     enabled: true
 
 eureka:
+  instance:
+    hostname: myconsumer
   client:
     service-url:
-      defaultZone: http://127.0.0.1:8000/eureka/
-#      defaultZone: http://peer1:8001/eureka/,http://peer2:8002/eureka/,http://peer3:8003/eureka/
+#      defaultZone: http://127.0.0.1:8000/eureka/
+      defaultZone: http://peer1:8001/eureka/,http://peer2:8002/eureka/,http://peer3:8003/eureka/
