@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86b5794c-ae63-4f96-a055-9cc8919eb409" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/eureka-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-producer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-producer/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="86b5794c-ae63-4f96-a055-9cc8919eb409" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,38 +10,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-producer/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eureka-registry/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka-producer/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-consumer/pom.xml">
+        <entry file="file://$PROJECT_DIR$/eureka-registry/src/main/resources/application-p1.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="95">
+              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -101,32 +80,6 @@
               <item name="springcloud-examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-examples" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="springcloud-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-producer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-examples" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-producer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -171,9 +124,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28495842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2622827" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -210,7 +162,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-registry/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-registry/src/main/resources/application-p2.yml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -231,8 +187,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-registry/src/main/resources/application-p1.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="95">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
