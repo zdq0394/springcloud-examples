@@ -4,12 +4,12 @@ spring:
     name: spring-cloud-eureka
   profiles: p3
 server:
-  port: 8003
+  port: 8000
 eureka:
   instance:
     hostname: peer3
   client:
     serviceUrl:
-      defaultZone: http://peer1:8001/eureka/,http://peer2:8002/eureka/
+      defaultZone: http://peer1:8000/eureka/,http://peer2:8000/eureka/
 #      register-with-eureka: false
 #      fetch-registry: true
