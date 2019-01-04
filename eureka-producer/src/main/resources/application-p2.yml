@@ -4,11 +4,11 @@ spring:
     name: spring-cloud-producer
 
 server:
-  port: 9000
+  port: 9002
 
 eureka:
   instance:
-    hostname: peer1
+    hostname: peer2
   client:
     service-url:
       defaultZone: http://127.0.0.1:8000/eureka/

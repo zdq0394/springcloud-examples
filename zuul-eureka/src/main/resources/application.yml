@@ -1,10 +1,12 @@
+---
 server:
   port: 8888
+
 spring:
   application:
     name: spring-cloud-zuul-eureka
 
 eureka:
   client:
-    serviceUrl:
+    service-url:
       defaultZone: http://127.0.0.1:8000/eureka/
