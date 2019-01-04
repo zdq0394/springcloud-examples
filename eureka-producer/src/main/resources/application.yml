@@ -2,6 +2,11 @@
 spring:
   application:
     name: spring-cloud-producer
+  sleuth:
+    sampler:
+      percentage: 1.0
+  zipkin:
+    base-url: http://127.0.0.1:8900
 
 server:
   port: 9000
