@@ -8,8 +8,9 @@ server:
 eureka:
   instance:
     hostname: peer2
+    instance-id: eureka2
   client:
+    register-with-eureka: false
+    fetch-registry: false
     serviceUrl:
       defaultZone: http://peer1:8000/eureka/,http://peer3:8000/eureka/
-#      register-with-eureka: false
-#      fetch-registry: true
