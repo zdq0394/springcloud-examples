@@ -4,6 +4,7 @@ server:
 spring:
   application:
     name: spring-cloud-consul-producer
+    profiles: p2
   cloud:
     consul:
       host: myconsul1
