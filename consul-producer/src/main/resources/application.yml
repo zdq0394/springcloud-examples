@@ -10,5 +10,6 @@ spring:
       host: myconsul1
       port: 8500
       discovery:
+        prefer-ip-address: true
         service-name: consul-producer
         hostname: myconsul-producer
