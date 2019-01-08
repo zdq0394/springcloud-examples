@@ -1,0 +1,9 @@
+---
+spring:
+  cloud:
+    consul:
+      host: myconsul1
+      port: 8500
+      discovery:
+        service-name: consul-producer
+        hostname: peer1
